@@ -79,7 +79,7 @@
                                             </thead>
                                             <tbody>
                                                 <?php
-                                                include_once('simple_html_dom.php');
+                                                include_once('');
                                                 $html = new simple_html_dom();
                                                 if (isset($_POST['crawl'])) {
                                                     $crawl = $_POST['target'];
@@ -156,7 +156,7 @@
                                             </thead>
                                             <tbody>
                                                 <?php
-                                                include_once('simple_html_dom.php');
+                                                include_once('');
                                                 $html = new simple_html_dom();
                                                 if (isset($_POST['crawl'])) {
                                                     $crawl = $_POST['target'];
